@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <!--<servlet>
+    <servlet-name>onepageServlet</servlet-name>
+    <servlet-class>com.tl.onepage.controller.OnepageServlet</servlet-class>
+  </servlet>-->
+  
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>*.html</url-pattern>
+  </servlet-mapping>
 </web-app>

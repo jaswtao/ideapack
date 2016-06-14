@@ -5,6 +5,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="onepage" />
+          <element id="module-output" name="ideapack" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="onepage/web/Web" />
